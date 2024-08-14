@@ -6,7 +6,7 @@ subtitle: Ph.D. in computer science
 
 profile:
   align: right
-  image: profile_img.jpg
+  image: my_profile_img.jpg
   image_circular: false # crops the image to make it circular
   more_info: photo @ Yellowstone # more info
 
