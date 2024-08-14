@@ -10,4 +10,4 @@ toc:
   sidebar: left
 ---
 
-<meta http-equiv="Refresh" content="0; url='/~zhiqihuang/assets/pdf/Zhiqi-Resume-24.pdf'" />
+<meta http-equiv="Refresh" content="0; url='/assets/resume_08142024.pdf'" />
