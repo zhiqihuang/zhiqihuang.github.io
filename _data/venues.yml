@@ -1,0 +1,35 @@
+"SIGIR":
+  url: https://dl.acm.org/sig/sigir
+  color: "#4bcbf2" 
+
+"CIKM":
+  url: https://dl.acm.org/conference/cikm
+  color: "#ffbb42"
+
+"WSDM":
+  url: https://dl.acm.org/conference/wsdm
+  color: "#6495ed"
+
+"VLDB":
+  url: https://www.vldb.org/
+  color: "#326d32"
+
+"WWW":
+  url: https://dl.acm.org/conference/www
+  color: "#675183"
+
+"ICTIR":
+  url: https://dl.acm.org/conference/ictir
+  color: "#b509ac"
+
+"ACL":
+  url: https://www.aclweb.org
+  color: "#ed1e25"
+
+"FUZZ-IEEE":
+  url: https://ieeexplore.ieee.org/xpl/conhome/1000302/all-proceedings
+  color: "#e8591c"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#b31b1b"
