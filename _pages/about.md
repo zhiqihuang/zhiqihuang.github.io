@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:
+subtitle: Ph.D. in computer science
 
 profile:
   align: right
