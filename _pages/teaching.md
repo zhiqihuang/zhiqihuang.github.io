@@ -7,10 +7,11 @@ nav: true
 nav_order: 5
 ---
 
-### program committee member
-* SIGIR (&#39;22, &#39;23, &#39;24)
-* CIKM (&#39;21, &#39;22, &#39;23, &#39;24)
-* WWW (&#39;23, &#39;24)
+### reviwer for
+* ACM SIGIR (&#39;22, &#39;23, &#39;24)
+* ACM CIKM (&#39;21, &#39;22, &#39;23, &#39;24)
+* ACM WWW (&#39;23, &#39;24, &#39;25)
+* IEEE Transactions on Knowledge and Data Engineering (TKDE)
 
 
 ### teaching assistant
