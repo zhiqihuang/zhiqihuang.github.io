@@ -2,6 +2,10 @@
   url: https://aclanthology.org/events/emnlp-2024/
   color: "#e71d25"
 
+"COLING":
+  url: https://aclanthology.org/venues/coling/
+  color: "#02678f"
+
 "INTERSPEECH":
   url: https://isca-speech.org/page-18313
   color: "#003471"
