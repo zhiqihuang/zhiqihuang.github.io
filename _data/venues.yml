@@ -1,3 +1,11 @@
+"EMNLP":
+  url: https://aclanthology.org/events/emnlp-2024/
+  color: "#e71d25"
+
+"INTERSPEECH":
+  url: https://isca-speech.org/page-18313
+  color: "#003471"
+
 "SIGIR":
   url: https://dl.acm.org/sig/sigir
   color: "#4bcbf2" 
