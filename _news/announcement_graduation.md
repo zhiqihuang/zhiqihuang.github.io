@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I defended my dissertation and completed my Ph.D. study!
+I defended my dissertation and completed my Ph.D.
