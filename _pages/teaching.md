@@ -7,8 +7,8 @@ nav: true
 nav_order: 5
 ---
 
-### reviwer for
-* ACM SIGIR (&#39;22, &#39;23, &#39;24)
+### program committee member (reviewer)
+* ACM SIGIR (&#39;22, &#39;23, &#39;24, &#39;25)
 * ACM CIKM (&#39;21, &#39;22, &#39;23, &#39;24)
 * ACM WWW (&#39;23, &#39;24, &#39;25)
 * IEEE Transactions on Knowledge and Data Engineering (TKDE)
