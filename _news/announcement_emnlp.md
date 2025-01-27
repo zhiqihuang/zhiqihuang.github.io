@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper "Language Concept Erasure for Language-invariant Dense Retrieval" has been accepted for the EMNLP 2024 oral presentation at the main conference. See you in Miami!
+Our paper, “Language Concept Erasure for Language-Invariant Dense Retrieval,” has been accepted for an oral presentation at the EMNLP 2024 main conference. See you in Miami!
