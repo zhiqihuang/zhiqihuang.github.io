@@ -11,8 +11,8 @@ nav_order: 5
 * ACM SIGIR (&#39;22, &#39;23, &#39;24, &#39;25)
 * ACM CIKM (&#39;21, &#39;22, &#39;23, &#39;24, &#39;25)
 * ACM WWW (&#39;23, &#39;24, &#39;25, &#39;26)
-* IEEE Transactions on Knowledge and Data Engineering (TKDE)
 * IEEE ICDM (&#39;25)
+* IEEE Transactions on Knowledge and Data Engineering (TKDE)
 
 
 ### teaching assistant
