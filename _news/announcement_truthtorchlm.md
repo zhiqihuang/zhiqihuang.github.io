@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Looking for a tool for LLM uncertainty quantification? Check out [TruthTorchLM](https://arxiv.org/pdf/2507.08203) ([code](https://github.com/Ybakman/TruthTorchLM)) — to be presented at EMNLP 2025.
+Looking for a tool for uncertainty quantification in LLMs? Check out [TruthTorchLM](https://arxiv.org/pdf/2507.08203) ([code](https://github.com/Ybakman/TruthTorchLM)) — to be presented at EMNLP 2025.
