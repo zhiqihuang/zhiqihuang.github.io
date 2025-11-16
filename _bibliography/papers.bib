@@ -8,7 +8,6 @@
   pages={1--7},
   year={2018},
   organization={IEEE},
-  
   display={2},
   abbr={FUZZ-IEEE},
   pdf={https://ieeexplore.ieee.org/document/8491677},
@@ -23,7 +22,6 @@
   pages={1918--1921},
   year={2019},
   publisher={VLDB Endowment},
-  
   display={4},
   abbr={VLDB},
   pdf={https://people.cs.umass.edu/~miklau/assets/pubs/dp/huang19psyndata-demo.pdf},
@@ -35,7 +33,6 @@
   booktitle={Proceedings of the 42nd International ACM SIGIR Conference on Research and Development in Information Retrieval},
   pages={1153--1156},
   year={2019},
-  
   display={5},
   abbr={SIGIR},
   pdf={https://maroo.cs.umass.edu/getpdf.php?id=1349},
@@ -47,7 +44,6 @@
   booktitle={Proceedings of the 2020 ACM SIGIR on International Conference on Theory of Information Retrieval},
   pages={21--28},
   year={2020},
-  
   display={6},
   abbr={SIGIR},
   pdf={https://maroo.cs.umass.edu/getpdf.php?id=1384},
@@ -59,7 +55,6 @@
   booktitle={Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval},
   pages={2101--2105},
   year={2021},
-  
   display={7},
   abbr={SIGIR},
   pdf={https://maroo.cs.umass.edu/getpdf.php?id=1403},
@@ -70,7 +65,6 @@
   author={Huang, Zhiqi and Bonab, Hamed and Sarwar, Sheikh Muhammad and Rahimi, Razieh and Allan, James},
   booktitle={Proceedings of the 30th ACM International Conference on Information \& Knowledge Management},
   year={2021},
-  
   display={8},
   abbr={CIKM},
   pdf={https://ciir-publications.cs.umass.edu/getpdf.php?id=1434}
@@ -82,7 +76,6 @@
   booktitle={Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining},
   pages={1048--1056},
   year={2023},
-
   display={9},
   abbr={WSDM},
   pdf={https://ciir-publications.cs.umass.edu/getpdf.php?id=1468},
@@ -93,7 +86,6 @@
   author={Huang, Zhiqi and Yu, Puxuan and Allan, James},
   journal={arXiv preprint arXiv:2302.13400},
   year={2023},
-
   display={10},
   abbr={arXiv},
   pdf={https://arxiv.org/pdf/2302.13400.pdf},
@@ -106,7 +98,6 @@
   booktitle={Proceedings of the 2023 ACM SIGIR International Conference on Theory of Information Retrieval},
   pages={105--115},
   year={2023},
-
   note={(*equal contribution)},
   display={11},
   abbr={ICTIR},
@@ -119,7 +110,6 @@
   booktitle={Proceedings of the 32nd ACM International Conference on Information and Knowledge Management},
   pages={3040--3051},
   year={2023},
-
   display={13},
   abbr={CIKM},
   pdf={https://ciir-publications.cs.umass.edu/pub/web/getpdf.php?id=1483}
@@ -133,7 +123,6 @@
   pages     = {4573--4577},
   doi       = {10.21437/Interspeech.2024-558},
   issn      = {2958-1796},
-  selected  = {true},
   abbr      = {INTERSPEECH},
   pdf       = {https://www.isca-archive.org/interspeech_2024/huang24c_interspeech.pdf},
 }
@@ -216,4 +205,28 @@
   year={2025},
   abbr={arXiv},
   pdf={https://arxiv.org/pdf/2502.14822},
+}
+
+@inproceedings{huang-etal-2025-confidence,
+    title = "Confidence-Based Response Abstinence: Improving {LLM} Trustworthiness via Activation-Based Uncertainty Estimation",
+    author = "Huang, Zhiqi  and
+      Datla, Vivek  and
+      Zhu, Chenyang  and
+      Samuel, Alfy  and
+      Liu, Daben  and
+      Kumar, Anoop  and
+      Soni, Ritesh",
+    editor = "Noidea, Noidea",
+    booktitle = "Proceedings of the 2nd Workshop on Uncertainty-Aware NLP (UncertaiNLP 2025)",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.uncertainlp-main.16/",
+    doi = "10.18653/v1/2025.uncertainlp-main.16",
+    pages = "184--193",
+    ISBN = "979-8-89176-349-4",
+    pdf={https://aclanthology.org/2025.uncertainlp-main.16.pdf},
+    selected = {true},
+    abstract = "We propose a method for confidence estimation in retrieval-augmented generation (RAG) systems that aligns closely with the correctness of large language model (LLM) outputs. Confidence estimation is especially critical in high-stakes domains such as finance and healthcare, where the cost of an incorrect answer outweighs that of not answering the question. Our approach extends prior uncertainty quantification methods by leveraging raw feed-forward network (FFN) activations as auto-regressive signals, avoiding the information loss inherent in token logits and probabilities after projection and softmax normalization. We model confidence prediction as a sequence classification task, and regularize training with a Huber loss term to improve robustness against noisy supervision. Applied in a real-world financial industry customer-support setting with complex knowledge bases, our method outperforms strong baselines and maintains high accuracy under strict latency constraints. Experiments on Llama 3.1 8B model show that using activations from only the 16th layer preserves accuracy while reducing response latency. Our results demonstrate that activation-based confidence modeling offers a scalable, architecture-aware path toward trustworthy RAG deployment."
 }
