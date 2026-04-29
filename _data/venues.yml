@@ -45,3 +45,7 @@
 "arXiv":
   url: https://arxiv.org/
   color: "#b31b1b"
+
+"TMLR":
+  url: https://jmlr.org/tmlr/index.html
+  color: "#bfcaef"
