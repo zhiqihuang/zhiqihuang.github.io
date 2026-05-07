@@ -49,3 +49,7 @@
 "TMLR":
   url: https://jmlr.org/tmlr/index.html
   color: "#bfcaef"
+
+"ICLR":
+  url: https://iclr.cc/
+  color: "#5ec469"
