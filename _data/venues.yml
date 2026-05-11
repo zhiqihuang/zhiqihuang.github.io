@@ -53,3 +53,7 @@
 "ICLR":
   url: https://iclr.cc/
   color: "#5ec469"
+
+"AACL":
+  url: https://aaclnet.org/
+  color: "#ed1e25"
