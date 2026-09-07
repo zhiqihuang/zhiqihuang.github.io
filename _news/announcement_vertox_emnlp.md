@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper, VerTox: Verifiable Reward-Guided Corpus Poisoning Against Neural Ranking Models, has been accepted to the main conference at EMNLP 2026.
+Our paper, [VerTox: Verifiable Reward-Guided Corpus Poisoning Against Neural Ranking Models](https://arxiv.org/abs/2609.01325), has been accepted to the main conference at EMNLP 2026.
