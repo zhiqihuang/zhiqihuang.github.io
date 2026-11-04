@@ -1,6 +1,43 @@
 ---
 ---
 
+@inproceedings{huang-etal-2026-vertox,
+    title = "{V}er{T}ox: Verifiable Reward-Guided Corpus Poisoning Against Neural Ranking Models",
+    author = "Huang, Zhiqi  and
+      Datla, Vivek  and
+      Xu, Zhichao  and
+      Yu, Puxuan  and
+      Srikumar, Vivek  and
+      Samuel, Alfy",
+    editor = "Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Junyi Jessy  and
+      Elliott, Desmond",
+    booktitle = "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    month = oct,
+    year = "2026",
+    selected = {true},
+    abbr={EMNLP},
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.emnlp-main.395/",
+    doi = "10.18653/2026.emnlp-main.395",
+    pages = "9069--9084",
+    ISBN = "979-8-89176-459-0",
+    abstract = "Neural ranking models have become core components of modern information retrieval systems and important building blocks of AI systems such as retrieval-augmented generation (RAG) pipelines. However, their robustness remains insufficiently understood in the presence of large language models (LLMs), which can generate fluent and deceptive content at scale. This work investigates the vulnerability of neural ranking models to corpus poisoning attacks, in which an adversary injects a small number of maliciously crafted documents into the corpus to distort ranking behavior. We propose VerTox, the first framework to formulate corpus poisoning as a verifiable reward-guided reinforcement learning (RLVR) problem. By explicitly coupling ranking distortion with factual corruption through specialized reward shaping, we fine-tune compact LLMs into adversarial generators. Experiments demonstrate that our method achieves near-perfect attack success rates, producing adversarial documents that frequently rank higher than target documents across major neural ranking architectures, as well as a proprietary commercial embedding model. The generated adversarial documents are fluent and exhibit low perplexity, making them difficult to detect. Furthermore, by explicitly encouraging factual corruption, our adversarial documents significantly degrade the performance of a downstream RAG application."
+}
+
+@inproceedings{bakman2026uncertainty,
+  title={Uncertainty as Feature Gaps: Epistemic Uncertainty Quantification of {LLM}s in Contextual Question-Answering},
+  author={Yavuz Faruk Bakman and Sungmin Kang and Zhiqi Huang and Duygu Nur Yaldiz and Catarina G Bel{\'e}m and Chenyang Zhu and Anoop Kumar and Alfy Samuel and Daben Liu and Salman Avestimehr and Sai Praneeth Karimireddy},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  abbr={ICLR},
+  year={2026},
+  url={https://openreview.net/forum?id=OWvvdl27CE},
+  pdf={https://openreview.net/pdf?id=OWvvdl27CE},
+  selected={true},
+}
+
 @inproceedings{wang2018mutual,
   title={Mutual Information based K-labelsets Ensemble for Multi-label Classification},
   author={Wang, Ran and Kwong, Sam and Jia, Yuheng and Huang, Zhiqi and Wu, Lang},
@@ -217,7 +254,6 @@
     pages = "184--193",
     ISBN = "979-8-89176-349-4",
     pdf={https://aclanthology.org/2025.uncertainlp-main.16.pdf},
-    selected = {true},
     abbr={EMNLP},
     abstract = "We propose a method for confidence estimation in retrieval-augmented generation (RAG) systems that aligns closely with the correctness of large language model (LLM) outputs. Confidence estimation is especially critical in high-stakes domains such as finance and healthcare, where the cost of an incorrect answer outweighs that of not answering the question. Our approach extends prior uncertainty quantification methods by leveraging raw feed-forward network (FFN) activations as auto-regressive signals, avoiding the information loss inherent in token logits and probabilities after projection and softmax normalization. We model confidence prediction as a sequence classification task, and regularize training with a Huber loss term to improve robustness against noisy supervision. Applied in a real-world financial industry customer-support setting with complex knowledge bases, our method outperforms strong baselines and maintains high accuracy under strict latency constraints. Experiments on Llama 3.1 8B model show that using activations from only the 16th layer preserves accuracy while reducing response latency. Our results demonstrate that activation-based confidence modeling offers a scalable, architecture-aware path toward trustworthy RAG deployment."
 }
@@ -261,17 +297,6 @@
   url={https://openreview.net/forum?id=xAIbTbHRrX},
   note={Survey Certification},
   pdf={https://arxiv.org/pdf/2502.14822},
-}
-
-@inproceedings{bakman2026uncertainty,
-  title={Uncertainty as Feature Gaps: Epistemic Uncertainty Quantification of {LLM}s in Contextual Question-Answering},
-  author={Yavuz Faruk Bakman and Sungmin Kang and Zhiqi Huang and Duygu Nur Yaldiz and Catarina G Bel{\'e}m and Chenyang Zhu and Anoop Kumar and Alfy Samuel and Daben Liu and Salman Avestimehr and Sai Praneeth Karimireddy},
-  booktitle={The Fourteenth International Conference on Learning Representations},
-  abbr={ICLR},
-  year={2026},
-  url={https://openreview.net/forum?id=OWvvdl27CE},
-  pdf={https://openreview.net/pdf?id=OWvvdl27CE},
-  selected={true},
 }
 
 @inproceedings{10.1145/3805712.3809945,
